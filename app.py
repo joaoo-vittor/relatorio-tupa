@@ -5,8 +5,6 @@ from tools import (classificacao, grafico_barra, grafico_barrar_sexo,
                    classificacao_sexo, unique_bairros, agrupamento_bairro,
                    col_count)
 
-# 'VALOR DA RENDA TOTAL DA FAMILIA PESSOA FREQUENTA ESCOLA'
-
 
 @st.cache
 def load_data():
